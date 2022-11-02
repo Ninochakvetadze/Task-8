@@ -1,0 +1,30 @@
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+ul {
+	display: flex;
+	width: 500px;
+	justify-content: space-between;
+	margin: 48px;
+}
+.section1 {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+h1, h4 {
+	color: white;
+}
+
+
+
+
