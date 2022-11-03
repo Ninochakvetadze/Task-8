@@ -1,6 +1,6 @@
 
 header {
-	max-width: 1170px;
+	max-width: 1350px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -46,7 +46,8 @@ h1, h4 {
 }
 
 .div1 {
-	max-width: 1170px;
+	display: flex;
+	max-width: 1350px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -68,12 +69,14 @@ h1, h4 {
 	align-items: flex-end;
 	justify-content: flex-end;
 }
-.cardup, .carddown {
-	display: flex;
-	width: 1200px;
-	margin: 50px;
-}
 
+ .cardup, .carddown {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	margin: 50px;
+ }
 
 
 
